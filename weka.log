@@ -1,0 +1,238 @@
+2013-06-25 13:35:04 weka.gui.explorer.Explorer main
+INFO: Logging started
+Refreshing GOE props...
+---Registering Weka Editors---
+Trying to add database driver (JDBC): RmiJdbc.RJDriver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): jdbc.idbDriver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): org.gjt.mm.mysql.Driver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): com.mckoi.JDBCDriver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): org.hsqldb.jdbcDriver - Warning, not in CLASSPATH?
+[KnowledgeFlow] Loading properties and plugins...
+[KnowledgeFlow] Initializing KF...
+2013-06-25 13:35:05 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2013-06-25 13:35:05 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2013 The University of Waikato, Hamilton, New Zealand
+2013-06-25 13:35:05 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2013-06-25 13:35:05 weka.gui.explorer.Explorer <init>
+INFO: Started on ???, 25 ?? 2013
+Loading instances from C:\Program Files\Weka-3-7\data\breast-cancer.arff
+2013-06-25 13:35:06 weka.gui.explorer.PreprocessPanel$14 run
+INFO: Base relation is now breast-cancer (286 instances)
+Here - true
+[Loader] Notifying listeners of instance structure avail.
+2013-06-25 13:35:54 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$2143648648|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+Error parsing '?'!
+Error parsing '??'!
+Error parsing '?'!
+Error parsing ''!
+Error parsing ''!
+Error parsing ''!
+2013-06-25 13:36:10 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 13:36:10 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 13:36:10 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$2143648648|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+Removing bean
+2013-06-25 13:52:15 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 13:52:15 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 13:53:03 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1807541745|-C 0.25 -M 2|WARNING: weka.classifiers.trees.J48 Is not an updateable classifier. This classifier will only be evaluated on incoming instance events and not trained on them.
+2013-06-25 13:54:11 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 13:54:11 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 13:54:11 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1807541745|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+2013-06-25 13:56:04 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 13:56:04 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 13:56:04 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1807541745|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+Error parsing 'l'!
+Error parsing 'la'!
+Error parsing 'las'!
+2013-06-25 13:58:01 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points sequentially...
+2013-06-25 13:58:01 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] adding start point ArffLoader to the execution list (position 0)
+2013-06-25 13:58:01 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1807541745|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+Here - true
+[Loader] Notifying listeners of instance structure avail.
+2013-06-25 13:58:21 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1807541745|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+Here - true
+[Loader] Notifying listeners of instance structure avail.
+2013-06-25 13:58:31 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1807541745|-C 0.25 -M 2|ERROR: classifier has not been batch trained; can't process instance events.
+Removing bean
+Removing bean
+Removing bean
+Removing bean
+Here - true
+[Loader] Notifying listeners of instance structure avail.
+2013-06-25 13:59:04 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 13:59:04 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Loader] ArffLoader$630600705| loaded labor-neg-data
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [CrossValidationFoldMaker] stratifying data
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| starting executor pool (2 slots)...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| setup output queues.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 1 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 2 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 3 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 4 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 5 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 6 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 7 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 8 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 9 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 10 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 2
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/2 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| starting executor pool (2 slots)...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 2 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 1
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/1 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 1 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 4
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/4 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 4 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 3
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/3 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 3 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 6
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/6 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 6 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 7
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/7 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 7 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 5
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/5 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 5 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 8
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/8 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 8 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 10
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/10 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 10 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 9
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/9 to listeners.
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 9 for execution...
+2013-06-25 14:02:15 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| last classifier unblocking...
+[KnowledgeFlow] No customizer class
+[BeanConnection] Unable to connect beans
+[BeanConnection] Unable to connect beans
+Removing bean
+Removing bean
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] launching flow start points in parallel...
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [FlowRunner] Launching flow 1...
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Loader] ArffLoader$630600705| loaded labor-neg-data
+In accept data set
+Notifying listeners (training set maker)
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| starting executor pool (2 slots)...
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| setup output queues.
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| scheduling run 1 fold 1 for execution...
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| storing model for run 1 fold 1
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| dispatching run/set 1/1 to listeners.
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| starting executor pool (2 slots)...
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [ClassifierPerformanceEvaluator] ClassifierPerformanceEvaluator$1212040511| scheduling  evaluation of fold 1 for execution...
+2013-06-25 14:08:40 weka.gui.beans.LogPanel logMessage
+INFO: [Classifier] J48$1781865022|-C 0.25 -M 2| last classifier unblocking...
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] loaded perspective: Attribute summary
+[KnowledgeFlow] loaded perspective: SQL Viewer
+[KnowledgeFlow] loaded perspective: Scatter plot matrix
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+[BeanConnection] Unable to connect beans
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+[KnowledgeFlow] No customizer class
+Removing vector of beans at index: 0
+2013-06-25 14:20:42 weka.gui.beans.LogPanel logMessage
+INFO: Weka Knowledge Flow was written by Mark Hall
+2013-06-25 14:20:42 weka.gui.beans.LogPanel logMessage
+INFO: Weka Knowledge Flow
+2013-06-25 14:20:42 weka.gui.beans.LogPanel logMessage
+INFO: (c) 2002-2013 The University of Waikato, Hamilton, New Zealand
+2013-06-25 14:20:42 weka.gui.beans.LogPanel logMessage
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2013-06-25 14:20:42 weka.gui.beans.LogPanel logMessage
+INFO: ???, 25 ?? 2013
+[KnowledgeFlow] Saving user components....
+Saving preferences for selected perspectives...
